@@ -1,0 +1,45 @@
+#brand_section {
+    padding: 5.25rem 7.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#brand_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+#brand_para {
+    color: #475467;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#brandImg_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+
+@media(max-width:991px) {
+    #brand_section {
+        padding: 3.75rem 5.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+@media(max-width:479px) {
+    #brand_section {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #brand_box {
+        gap: 1rem;
+    }
+}

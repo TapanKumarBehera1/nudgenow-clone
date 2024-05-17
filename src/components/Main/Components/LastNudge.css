@@ -1,0 +1,116 @@
+#last_nudge_container {
+    width: 100%;
+}
+
+#last_nudge {
+    padding: 5.25rem 7.5rem;
+}
+
+#background_image {
+    padding: 4rem;
+    border-radius: 1rem;
+    background-image: url("https://assets-global.website-files.com/64392fc35d736d7f205f3f62/6617e3deacfc30f68556f465_cta%20background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last_nudge_text {
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.last_nudge_text>h1 {
+    font-size: 2.75rem;
+    width: 80%;
+    font-family: Poppins, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.last_nudge_btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .75rem;
+}
+
+.tour-btn {
+    border: 1px solid #5f2ff8;
+    background-color: #5f2ff8;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: .5rem;
+    padding: .625rem 1.125rem;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+    cursor: pointer;
+}
+
+.book-btn {
+    border: 1px solid #d0d5dd;
+    background-color: #ffffff;
+    color: #344054;
+    text-align: center;
+    border-radius: .5rem;
+    padding: .625rem 1.125rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+    cursor: pointer;
+}
+
+
+@media(max-width:991px) {
+
+
+    #last_nudge {
+        padding: 3.75rem 5.5rem;
+    }
+
+    .last_nudge_btn_container {
+        flex-wrap: wrap;
+    }
+
+    #background_image {
+        flex-wrap: wrap;
+    }
+
+    .last_nudge_text {
+        text-align: center;
+        min-width: 100%;
+    }
+
+    .last_nudge_text>h1 {
+        text-align: center;
+        font-size: 2rem;
+        width: 100%;
+        font-family: Inter, sans-serif;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .last_nudge_btn_container {
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:479px) {
+    #last_nudge {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}

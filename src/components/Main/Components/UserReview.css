@@ -1,0 +1,73 @@
+#user_review {
+    background-image: radial-gradient(circle, #ced7ff, #fff 30%);
+    padding: 5.25rem 7.5rem;
+}
+
+
+
+#user_review_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+    border: 1px solid #d0d5dd;
+    background-color: #ffffff;
+    border-radius: 1.25rem;
+    width: 100%;
+    padding: 3.375rem;
+}
+
+#user_review_text {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    max-width: 64rem;
+    width: 100%;
+    line-height: 1.5;
+    color: #101828;
+    letter-spacing: -.02em;
+    margin: 0.67rem 0;
+}
+
+#user_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#user_name {
+    font-weight: 600;
+    color: #101828;
+    font-family: Poppins, sans-serif;
+    font-size: 1.25rem;
+}
+
+#position_company_text {
+    color: #475467;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media(max-width:991px) {
+    #user_review {
+        padding: 3.75rem 5.5rem;
+    }
+}
+@media(max-width:479px) {
+    #user_review {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    #user_review_text {
+        font-family: Poppins, sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    #position_company_text {
+        font-size: .9rem;
+    }
+}

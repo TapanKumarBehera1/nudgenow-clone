@@ -1,0 +1,71 @@
+.nudge_dropdown_icons {
+    font-size: 1.5rem;
+    color: #5f2ff8;
+}
+
+.dw_title {
+    top: 0;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: .25rem;
+    color: #5f2ff8;
+    font-family: "Albert Sans", sans-serif;
+}
+
+.nudge-dropdown-container {
+    box-shadow: 0 12px 16px -4px rgba(0, 0, 0, .08), 0 4px 6px -2px rgba(16, 24, 40, .03);
+    border: 1px solid #eaecf0;
+    background-color: #ffffff;
+    border-radius: .75rem;
+    position: absolute;
+    top: 70px;
+    width: 40rem;
+    padding: 1.25rem;
+    margin-left: 50px;
+    display: flex;
+    gap: 2rem;
+    background-color: #FFFFFF;
+}
+.nudge-dropdown-container-two{
+    box-shadow: 0 12px 16px -4px rgba(0, 0, 0, .08), 0 4px 6px -2px rgba(16, 24, 40, .03);
+    border: 1px solid #eaecf0;
+    background-color: #ffffff;
+    border-radius: .75rem;
+    position: absolute;
+    top: 70px;
+    width: 30rem;
+    padding: 1.25rem;
+    margin-left: 250px;
+    display: flex;
+    gap: 2rem;
+    background-color: #FFFFFF;
+}
+
+.nudge_dropdown_icon-title-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.nudge-dropdown-box-two {
+    display: flex;
+    gap: 1rem;
+}
+
+.nudge_dropdown_icon-title {
+    color: #101828;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-family: "Albert Sans", sans-serif;
+}
+
+.nudge_dropdown_icon-text {
+    font-family: "Albert Sans", sans-serif;
+    color: #475467;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.nudge-dropdown-box {
+    padding: .75rem;
+}

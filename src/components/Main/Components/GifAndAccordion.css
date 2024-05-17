@@ -1,0 +1,76 @@
+#gifAndAccortdion_container {
+    padding: 5.25rem 7.5rem;
+}
+
+#gif_box_title {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #101828;
+    width: 80%;
+}
+
+#gif_box_para {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #475467;
+    font-size: 1.25rem;
+    font-family: Inter, sans-serif;
+    line-height: 1.5;
+}
+
+#gifAndAccortdion_container_mobile {
+    display: none;
+}
+
+
+@media(max-width:991px) {
+    #gifAndAccortdion_container {
+        display: none;
+    }
+
+    #gifAndAccortdion_container_mobile {
+        display: inline;
+        padding: 3.75rem 5.5rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    #gif_box_title {
+        font-size: 2rem;
+    }
+
+    #gif_box_para {
+        font-size: 1.25rem;
+    }
+
+    .cards_title {
+        font-weight: 400;
+    }
+}
+
+
+@media(max-width:479px) {
+    #gifAndAccortdion_container_mobile {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #gif_box_title {
+        font-size: 1.75rem;
+    }
+
+    #gif_box_para {
+        font-size: 1rem;
+    }
+
+    .cards_title {
+        font-weight: 600;
+    }
+}
